@@ -1114,6 +1114,10 @@ i{
     .main-title{
         margin: 14% 0;
     }
+
+    .main-title h2 {
+        font-size: 2rem;
+    }
     
     header {
         overflow: scroll;
@@ -1260,6 +1264,11 @@ i{
 
     .sec5{
         font-size: 1rem;
+    }
+
+    div.main-title h2 span.big-txt {
+        width: auto;
+        font-size: 2.3rem;
     }
     
 
