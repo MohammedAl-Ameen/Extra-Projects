@@ -1280,5 +1280,8 @@ i{
         padding-left: 3rem;
     }
     
+    .edit{
+        font-size: small;
+    }
 
 }
