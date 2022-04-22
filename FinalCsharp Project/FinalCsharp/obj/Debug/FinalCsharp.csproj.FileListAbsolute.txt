@@ -1,0 +1,10 @@
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\bin\Debug\FinalCsharp.exe.config
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\bin\Debug\FinalCsharp.exe
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\bin\Debug\FinalCsharp.pdb
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.csproj.AssemblyReference.cache
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.Form1.resources
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.Properties.Resources.resources
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.csproj.GenerateResource.cache
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.exe
+C:\Users\Mohammed\source\repos\FinalCsharp\FinalCsharp\obj\Debug\FinalCsharp.pdb

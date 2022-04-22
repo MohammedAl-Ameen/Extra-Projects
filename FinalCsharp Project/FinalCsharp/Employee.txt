@@ -1,0 +1,4 @@
+Name ID Workdays Bonus Absent_Days Loan
+Mohammed 33 20 50 2 20
+Ahmad 2 14 60 5 40
+Omar 55 26 50 3 30
