@@ -1270,6 +1270,15 @@ i{
         width: auto;
         font-size: 2.3rem;
     }
+
+    .tl-icon::before{
+        height: 27vh;
+    }
+
+    .timeline-item {
+        position: relative;
+        padding-left: 3rem;
+    }
     
 
 }
