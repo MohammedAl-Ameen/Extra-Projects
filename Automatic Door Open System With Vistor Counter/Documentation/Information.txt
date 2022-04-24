@@ -1,0 +1,13 @@
+LCD: 
+https://arduinogetstarted.com/tutorials/arduino-lcd
+
+Project:
+https://duino4projects.com/automatic-door-open-system-with-visitor-counter-part-1-using-arduino-uno-r3/
+https://duino4projects.com/automatic-door-open-system-with-visitor-counter-part-2-using-arduino-uno-r3/
+https://create.arduino.cc/projecthub/embeddedlab786/automatic-door-opening-system-d9ea30
+
+Motor Types:
+https://www.seeedstudio.com/blog/2019/04/01/choosing-the-right-motor-for-your-project-dc-vs-stepper-vs-servo-motors/
+
+L293D:
+https://components101.com/ics/l293d-pinout-features-datasheet

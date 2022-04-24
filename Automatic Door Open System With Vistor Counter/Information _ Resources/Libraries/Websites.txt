@@ -1,0 +1,9 @@
+PIR: 
+https://www.theengineeringprojects.com/2020/07/analog-pir-sensor-library-for-proteus.html
+
+Arduino: 
+https://www.theengineeringprojects.com/2021/03/arduino-uno-library-for-proteus-v2.html
+
+Buzzer: 
+https://github.com/satyamkr80/Buzzer-library-for-proteus
+
