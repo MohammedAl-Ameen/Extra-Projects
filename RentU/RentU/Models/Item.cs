@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using WebApplication1.Models;
 
 namespace RentU.Models
 {
@@ -19,7 +20,11 @@ namespace RentU.Models
         [Display(Name = "Item Category")]
         public int CategoryId { get; set; }
 
+        public string userId { get; set; }
+
         public virtual Category Category { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
 
     }
 }

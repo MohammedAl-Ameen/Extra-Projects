@@ -275,6 +275,14 @@
     <Compile Include="Migrations\202205131500463_addplease.Designer.cs">
       <DependentUpon>202205131500463_addplease.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202205131651090_adduserid.cs" />
+    <Compile Include="Migrations\202205131651090_adduserid.Designer.cs">
+      <DependentUpon>202205131651090_adduserid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205131652452_adduserid1.cs" />
+    <Compile Include="Migrations\202205131652452_adduserid1.Designer.cs">
+      <DependentUpon>202205131652452_adduserid1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Additems.cs" />
@@ -407,6 +415,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202205131500463_addplease.resx">
       <DependentUpon>202205131500463_addplease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205131651090_adduserid.resx">
+      <DependentUpon>202205131651090_adduserid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205131652452_adduserid1.resx">
+      <DependentUpon>202205131652452_adduserid1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

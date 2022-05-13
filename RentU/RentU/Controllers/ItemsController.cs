@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using RentU.Models;
 using WebApplication1.Models;
 using System.IO;
+using Microsoft.AspNet.Identity;
 
 namespace RentU.Controllers
 {
@@ -55,16 +56,11 @@ namespace RentU.Controllers
         {
             if (ModelState.IsValid)
             {
-                string oldPath = item.ItemImage;
-                
-                if(upload != null)
-                {
-                    System.IO.File.Delete(oldPath);
-                    string path = Path.Combine(Server.MapPath("~/Uploads"), upload.FileName);
-                    upload.SaveAs(path);
-                    item.ItemImage = upload.FileName;
-                }
-
+               
+                string path = Path.Combine(Server.MapPath("~/Uploads"), upload.FileName);
+                upload.SaveAs(path);
+                item.ItemImage = upload.FileName;
+                item.userId = User.Identity.GetUserId();
                 db.Items.Add(item);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -98,16 +94,23 @@ namespace RentU.Controllers
         public ActionResult Edit(Item item, HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
-
             {
-                string path = Path.Combine(Server.MapPath("~/Uploads"), upload.FileName);
-                upload.SaveAs(path);
-                item.ItemImage = upload.FileName;
+                string oldPath = Path.Combine(Server.MapPath("~/Uploads"), item.ItemImage);
+
+                if (upload != null)
+                {
+                    System.IO.File.Delete(oldPath);
+                    string path = Path.Combine(Server.MapPath("~/Uploads"), upload.FileName);
+                    upload.SaveAs(path);
+                    item.ItemImage = upload.FileName;
+                }
+
+
                 db.Entry(item).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.CategoryId = new SelectList(db.Categories, "id", "categoryName", item.CategoryId);
+            ViewBag.CategoryId = new SelectList(db.Categories, "Id", "CategoryName", item.CategoryId);
             return View(item);
         }
 
