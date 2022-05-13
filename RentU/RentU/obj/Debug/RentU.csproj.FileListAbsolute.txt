@@ -308,6 +308,7 @@ C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.csproj.CoreCompileInpu
 C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.csproj.CopyComplete
 C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.dll
 C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.pdb
-C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.csproj.AssemblyReference.cache
 C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.Migrations.adduserid.resources
 C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.Migrations.adduserid1.resources
+C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.Migrations.adduserid2.resources
+C:\Users\Mohammed\Desktop\aaa\RentU\RentU\obj\Debug\RentU.Migrations.adduserid3.resources

@@ -283,6 +283,14 @@
     <Compile Include="Migrations\202205131652452_adduserid1.Designer.cs">
       <DependentUpon>202205131652452_adduserid1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202205131744038_adduserid2.cs" />
+    <Compile Include="Migrations\202205131744038_adduserid2.Designer.cs">
+      <DependentUpon>202205131744038_adduserid2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205131800320_adduserid3.cs" />
+    <Compile Include="Migrations\202205131800320_adduserid3.Designer.cs">
+      <DependentUpon>202205131800320_adduserid3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Additems.cs" />
@@ -421,6 +429,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202205131652452_adduserid1.resx">
       <DependentUpon>202205131652452_adduserid1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205131744038_adduserid2.resx">
+      <DependentUpon>202205131744038_adduserid2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205131800320_adduserid3.resx">
+      <DependentUpon>202205131800320_adduserid3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

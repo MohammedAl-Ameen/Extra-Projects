@@ -16,6 +16,8 @@ namespace RentU.Models
 
         public virtual Item Item { get; set; }
 
+        public virtual ApplicationUser user { get; set; }
+
 
     }
 }
