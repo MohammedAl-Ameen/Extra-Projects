@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNet.Identity
+
+@if (Request.IsAuthenticated)
+{
+
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoff" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="get-started-btn scrollto" style="background:white">
+        @Html.ActionLink("Welcome " + User.Identity.GetUserName(), "Index", "Manage")
+        </div>
+
+        <a href="javascript:document.getElementById('logoff').submit()" class="get-started-btn scrollto">Log off</a>
+    }
+
+}
+else
+{
+
+    <a href="~/Account/Login" class="get-started-btn scrollto">Login-in</a>
+    <a href="~/Account/Register" class="get-started-btn scrollto">Get Started</a>
+}
