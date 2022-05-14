@@ -70,3 +70,75 @@ C:\Users\User\Downloads\Job Offers Website\Job Offers Website\obj\Debug\RentU.cs
 C:\Users\User\Downloads\Job Offers Website\Job Offers Website\obj\Debug\RentU.csproj.CopyComplete
 C:\Users\User\Downloads\Job Offers Website\Job Offers Website\obj\Debug\Job Offers Website.dll
 C:\Users\User\Downloads\Job Offers Website\Job Offers Website\obj\Debug\Job Offers Website.pdb
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\csc.exe
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\vbc.exe
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Job Offers Website.dll.config
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Job Offers Website.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Job Offers Website.pdb
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Antlr3.Runtime.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\EntityFramework.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Newtonsoft.Json.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Owin.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Helpers.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Mvc.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Optimization.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Razor.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\WebGrease.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Antlr3.Runtime.pdb
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\EntityFramework.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\Newtonsoft.Json.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Optimization.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Razor.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Helpers.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\bin\System.Web.Mvc.xml
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\RentU.csproj.AssemblyReference.cache
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.InitialCreate.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.AddColumn.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.AddCategoryTable.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.AddJobsTable.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.ApplyForJobs.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job_Offers_Website.Migrations.EditJobModel.resources
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\RentU.csproj.GenerateResource.cache
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\RentU.csproj.CoreCompileInputs.cache
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\RentU.csproj.CopyComplete
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job Offers Website.dll
+C:\Users\User\Github\Extra-Projects\RentU\Job Offers Website\obj\Debug\Job Offers Website.pdb

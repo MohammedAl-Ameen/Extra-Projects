@@ -5,15 +5,17 @@
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<h2>Create</h2>
-<script src="~/Scripts/ckeditor/ckeditor.js"></script>
+<section id="about" class="about section-bg">
+    <div class="container aos-init aos-animate" data-aos="fade-up" >
+        <h2>Create</h2>
+        <script src="~/Scripts/ckeditor/ckeditor.js"></script>
 
-@using (Html.BeginForm("Create", "Jobs", FormMethod.Post,  new { enctype = "multipart/form-data" }))
-{
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>Job</h4>
+        @using (Html.BeginForm("Create", "Jobs", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+    <div class="form-horizontal" style="display: flex; flex-direction: column; height: 140vh; justify-content: space-between;">
+        <h4>Add a item</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -27,10 +29,11 @@
         <div class="form-group">
             @Html.LabelFor(model => model.JobContent, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.JobContent, new { htmlAttributes = new { @class = "form-control", @id="JobContent" } })
+                @Html.EditorFor(model => model.JobContent, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.JobContent, "", new { @class = "text-danger" })
             </div>
         </div>
+
 
         <div class="form-group">
             @Html.LabelFor(model => model.JobImage, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -41,7 +44,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.CategoryId, "نوع الوظيفة", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.CategoryId, "Item Category", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("CategoryId", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
@@ -50,16 +53,21 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default" style="background-color:white" />
             </div>
         </div>
     </div>
-}
+        }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
 
-<script>
-    CKEDITOR.replace("JobContent");
-</script>
+    </div>
+    </section>
+
+
+
+        <script>
+            CKEDITOR.replace("JobContent");
+        </script>

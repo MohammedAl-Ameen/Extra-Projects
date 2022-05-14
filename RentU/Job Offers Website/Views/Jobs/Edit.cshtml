@@ -91,7 +91,7 @@
             var validExtensions = ['jpg', 'png', 'gif', 'bmp'];
             if ($.inArray(extensionImg, validExtensions) == -1) {
                 $("#error-div").fadeIn();
-                $("#view-err").append("رجاء قم باختيار صورة بامتداد صحيح");
+                $("#view-err").append("Please enter a photo with the right form");
                 return false;
             }
 
@@ -100,7 +100,7 @@
 
             if (myFileSize > 2) {
                 $("#error-div").fadeIn();
-                $("#view-err").append("رجاء قم باختيار صورة حجمها أقل من 2 ميغا بايت");
+                $("#view-err").append("Add a photo less than 2MB");
                 return false;
             }
             }

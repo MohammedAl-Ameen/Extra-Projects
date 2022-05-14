@@ -5,9 +5,9 @@
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<h2>حذف الوظيفة</h2>
+<h2>Delete an item</h2>
 
-<h3>هل أنت متأكد من حذف الوظيفة؟</h3>
+<h3>Are You sure you want to delete this item?</h3>
 <div>
     <hr />
     <dl class="dl-horizontal">
@@ -51,8 +51,8 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="تأكيد الحذف" class="btn btn-danger" /> |
-            @Html.ActionLink("العودة إلى الوظائف", "Index")
+            <input type="submit" value="Confirm" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to items", "Index")
         </div>
     }
 </div>

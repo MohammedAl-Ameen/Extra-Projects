@@ -1,14 +1,14 @@
 ﻿@model Job_Offers_Website.Models.Category
 
 @{
-    ViewBag.Title = "النوع";
+    ViewBag.Title = "Category";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<h2>النوع</h2>
+<h2>Category</h2>
 
 <div>
-    <h4>تفاصيل الصنف</h4>
+    <h4>Category detils</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -31,5 +31,5 @@
 </div>
 <p>
     @Html.ActionLink("تعديل", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("العودة إلى القائمة", "Index")
+    @Html.ActionLink("Back to home", "Index")
 </p>

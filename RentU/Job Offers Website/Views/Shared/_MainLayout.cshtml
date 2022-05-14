@@ -55,12 +55,12 @@
                     @using (Html.BeginForm("Search", "Home", FormMethod.Post))
                     {
 
-                        <form class="form-inline" style="display: flex;">
-                            <div class="search-navbar">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            </div>
-                        </form>
+                    <form class="form-inline" style="display: flex;">
+                        <div class="search-navbar">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </form>
 
                     }
 
@@ -76,14 +76,14 @@
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li><a class="nav-link scrollto active" href="~/Home">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a class="nav-link scrollto" href="~/Home/About">About</a></li>
 
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 
-                    <li> @Html.Partial("_Login")</li>
+
+                    <li><a class="nav-link scrollto" href="~/Home/Contact">Contact</a></li>
+
+                    @Html.Partial("_Login")
 
                 </ul>
 
@@ -95,12 +95,15 @@
     <!--Navbar-->
 
 
-
-
+    @if(ViewBag.Title != "Home Page"){
+    <section id="about" class="about section" style="margin-top:10%">
+        <div class="container" data-aos="fade-up">
+            @RenderBody()
+        </div>
+    </section>
+    }else{
     @RenderBody()
-
-
-
+    }
 
     <!--Footer-->
     <footer id="footer">

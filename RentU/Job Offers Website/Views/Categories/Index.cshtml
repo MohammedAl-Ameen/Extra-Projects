@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<Job_Offers_Website.Models.Category>
 
 @{
-    ViewBag.Title = "قائمة أنواع الوظائف";
+    ViewBag.Title = "Category";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<h2>قائمة أنواع الوظائف</h2>
+
 
 <p>
-    @Html.ActionLink("إنشاء نوع جديد", "Create")
+    @Html.ActionLink("Create new Category", "Create")
 </p>
 <table class="table">
     <tr>
@@ -30,9 +30,9 @@
             @Html.DisplayFor(modelItem => item.CategoryDescription)
         </td>
         <td>
-            @Html.ActionLink("تعديل", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("تفاصيل", "Details", new { id=item.Id }) |
-            @Html.ActionLink("حذف", "Delete", new { id=item.Id })
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>
 }

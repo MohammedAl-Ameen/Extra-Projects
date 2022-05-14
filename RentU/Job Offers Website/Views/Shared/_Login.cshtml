@@ -10,34 +10,34 @@
         var CurrentUser = db.Users.Where(a => a.Id == UserID).SingleOrDefault();
         @Html.AntiForgeryToken()
 
-        <li class="dropdown">
-            <a href="#"><span>Welcome @CurrentUser.UserName</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
+            <li class="dropdown">
+                <a href="#"><span>Welcome @CurrentUser.UserName</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
 
-                @if (CurrentUser.UserType == "lessor")
-                {
-                    <li><a href="~/Home/GetJobsByPublisher"> Published Items</a></li>
-                    <li> <a href="~/Jobs/Create" >Add an Item</a></li>
-
-
-                }
-                else
-                {
-                    <li> <a href="~/Home/GetJobsByUser" >Items You Added</a></li>
+                    @if (CurrentUser.UserType == "lessor")
+                    {
+                        <li><a href="~/Home/GetJobsByPublisher"> Messages</a></li>
+                        <li> <a href="~/Jobs/Create">Add an Item</a></li>
 
 
-                }
+                    }
+                    else
+                    {
+                        <li> <a href="~/Home/GetJobsByUser">Items You Added</a></li>
 
-                <li> <a href="~/Account/EditProfile" >Edit Account</a></li>
-                <li><a href="javascript:document.getElementById('logoff').submit()" class="btn btn-danger btn-block">Log off</a></li>
 
+                    }
 
-
-            </ul>
+                    <li> <a href="~/Account/EditProfile">Edit Account</a></li>
+                    <li><a href="javascript:document.getElementById('logoff').submit()" class="btn btn-danger btn-block">Log off</a></li>
 
 
 
-        </li>
+                </ul>
+
+
+
+            </li>
 
 
 
@@ -52,11 +52,11 @@ else
 {
 
     <li>
-        <a href="~/Account/Login" class="get-started-btn scrollto">Login</a>
+        <a style="background:#fff" href="~/Account/Login" class="get-started-btn scrollto">Login</a>
     </li>
 
     <li>
-        <a href="~/Account/Register" class="get-started-btn scrollto">Get Started</a>
+        <a style="background: #fff" href="~/Account/Register" class="get-started-btn scrollto">Get Started</a>
     </li>
 
 }

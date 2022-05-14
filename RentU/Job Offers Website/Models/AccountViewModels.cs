@@ -65,26 +65,26 @@ namespace WebApplication1.Models
     public class RegisterViewModel
     {
         [Required]
-        [DisplayName("اسم المستخدم")]
+        [DisplayName("UserName")]
         public string UserName { get; set; }
 
         [Required]
-        [DisplayName("نوع الحساب")]
+        [DisplayName("Account type")]
         public string UserType { get; set; }
 
         [Required]
         [EmailAddress]
-        [Display(Name = "البريد الالكتروني")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
-        [Display(Name = "كلمة السر")]
+        [Display(Name = "Password")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "تأكيد كلمة السر")]
+        [Display(Name = "Confirm Password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
@@ -93,28 +93,28 @@ namespace WebApplication1.Models
     {
         public int Id { get; set; }
         [Required]
-        [DisplayName("اسم المستخدم")]
+        [DisplayName("User Name")]
         public string UserName { get; set; }
 
         [Required]
         [EmailAddress]
-        [Display(Name = "البريد الالكتروني")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
-        [Display(Name = "كلمة السر الحالية")]
+        [Display(Name = "Password")]
         public string CurrentPassword { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
-        [Display(Name = "كلمة السر الجديدة")]
+        [Display(Name = "New Password")]
         public string NewPassword { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "تأكيد كلمة السر الجديدة")]
+        [Display(Name = "Confirm Password")]
         [Compare("NewPassword", ErrorMessage = "كلمات السر المدخلة غير متوافقة، رجاء قم بالتصحيح")]
         public string ConfirmPassword { get; set; }
     }

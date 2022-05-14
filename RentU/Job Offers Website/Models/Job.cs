@@ -11,15 +11,15 @@ namespace Job_Offers_Website.Models
     public class Job
     {
         public int Id { get; set; }
-        [DisplayName("اسم الوظيفة")]
+        [DisplayName("Item Name")]
         public string JobTitle { get; set; }
-        [DisplayName("وصف الوظيفة")]
+        [DisplayName("Item decription")]
         [AllowHtml]
         public string JobContent { get; set; }
-        [DisplayName("صورة الوظيفة")]
+        [DisplayName("Item image")]
         public string JobImage { get; set; }
 
-        [DisplayName("نوع الوظيفة")]
+        [DisplayName("Item Category")]
         public int CategoryId { get; set; }
 
         public string UserID { get; set; }
